@@ -549,7 +549,6 @@ class ViewController: UIViewController {
         case .ios:
             btnFilterMergeIOS.isEnabled = arrFilterKo.count != 0 && arrFilterEng.count != 0
         }
-        
     }
     
     private func activeButtons() {
@@ -557,8 +556,6 @@ class ViewController: UIViewController {
         btnOriginKoCheckiOS.isEnabled = true
         btnExportKoiOS.isEnabled = true
         btnExportEngiOS.isEnabled = true
-        
-        
         btnOriginEnCheckAnd.isEnabled = true
         btnOriginKoCheckAnd.isEnabled = true
         btnExportKoAnd.isEnabled = true
