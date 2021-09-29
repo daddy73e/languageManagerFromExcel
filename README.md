@@ -94,7 +94,7 @@ Android일 경우 (각각 "sample_ko_and.xml", "sample_en_and.xml" 에 복사한
 
 4. simulator를 선택하고, 실행한다.
 
-5. iOS 또는 Android 로그를 한번에 보고자 한다면 "Auto IOS" 또는 "Auto Android" 버튼을 클릭한다.
+5. iOS 또는 Android 로그를 한번에 보고자 한다면 "Auto IOS" 또는 "Auto Android" 버튼을 클릭한다. (기능을 하나하나 테스트해보고 싶으면 Translate를 선택하면 버튼이 활성화 된다.)
 
 ### "Auto IOS" 클릭시 로그
 
