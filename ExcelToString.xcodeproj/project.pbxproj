@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C700D9EA2704091A00491984 /* sample_en_and.xml in Resources */ = {isa = PBXBuildFile; fileRef = C700D9E82704091A00491984 /* sample_en_and.xml */; };
+		C700D9EB2704091A00491984 /* sample_ko_and.xml in Resources */ = {isa = PBXBuildFile; fileRef = C700D9E92704091A00491984 /* sample_ko_and.xml */; };
+		C700D9EE270409AC00491984 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = C700D9ED270409AC00491984 /* SwiftyXMLParser */; };
+		C700D9F0270430B700491984 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700D9EF270430B700491984 /* Enums.swift */; };
+		C70469A0270290BE00E9D224 /* sampleEnIOS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C704699F270290BE00E9D224 /* sampleEnIOS.txt */; };
+		C7098033270452580091420C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7098032270452580091420C /* Config.swift */; };
+		C7681ABE2701B50700F2CFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681ABD2701B50700F2CFA3 /* AppDelegate.swift */; };
+		C7681AC02701B50700F2CFA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681ABF2701B50700F2CFA3 /* SceneDelegate.swift */; };
+		C7681AC22701B50700F2CFA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681AC12701B50700F2CFA3 /* ViewController.swift */; };
+		C7681AC52701B50700F2CFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7681AC32701B50700F2CFA3 /* Main.storyboard */; };
+		C7681AC72701B50800F2CFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7681AC62701B50800F2CFA3 /* Assets.xcassets */; };
+		C7681ACA2701B50800F2CFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7681AC82701B50800F2CFA3 /* LaunchScreen.storyboard */; };
+		C7681AD52701B50800F2CFA3 /* ExcelToStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681AD42701B50800F2CFA3 /* ExcelToStringTests.swift */; };
+		C7681AE02701B50800F2CFA3 /* ExcelToStringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681ADF2701B50800F2CFA3 /* ExcelToStringUITests.swift */; };
+		C7681AEE2701B59D00F2CFA3 /* sampleExcel.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7681AED2701B59D00F2CFA3 /* sampleExcel.txt */; };
+		C7681AF02701B77800F2CFA3 /* EachLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681AEF2701B77800F2CFA3 /* EachLocale.swift */; };
+		C7681AF22701BE3200F2CFA3 /* sampleKoIOS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7681AF12701BE3200F2CFA3 /* sampleKoIOS.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7681AD12701B50800F2CFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7681AB22701B50700F2CFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7681AB92701B50700F2CFA3;
+			remoteInfo = ExcelToString;
+		};
+		C7681ADC2701B50800F2CFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7681AB22701B50700F2CFA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7681AB92701B50700F2CFA3;
+			remoteInfo = ExcelToString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C700D9E82704091A00491984 /* sample_en_and.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sample_en_and.xml; sourceTree = "<group>"; };
+		C700D9E92704091A00491984 /* sample_ko_and.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sample_ko_and.xml; sourceTree = "<group>"; };
+		C700D9EF270430B700491984 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C704699F270290BE00E9D224 /* sampleEnIOS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleEnIOS.txt; sourceTree = "<group>"; };
+		C7098032270452580091420C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C7681ABA2701B50700F2CFA3 /* ExcelToString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelToString.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7681ABD2701B50700F2CFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7681ABF2701B50700F2CFA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7681AC12701B50700F2CFA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7681AC42701B50700F2CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7681AC62701B50800F2CFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7681AC92701B50800F2CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7681ACB2701B50800F2CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7681AD02701B50800F2CFA3 /* ExcelToStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelToStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7681AD42701B50800F2CFA3 /* ExcelToStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelToStringTests.swift; sourceTree = "<group>"; };
+		C7681AD62701B50800F2CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7681ADB2701B50800F2CFA3 /* ExcelToStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelToStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7681ADF2701B50800F2CFA3 /* ExcelToStringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelToStringUITests.swift; sourceTree = "<group>"; };
+		C7681AE12701B50800F2CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7681AED2701B59D00F2CFA3 /* sampleExcel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleExcel.txt; sourceTree = "<group>"; };
+		C7681AEF2701B77800F2CFA3 /* EachLocale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachLocale.swift; sourceTree = "<group>"; };
+		C7681AF12701BE3200F2CFA3 /* sampleKoIOS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleKoIOS.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7681AB72701B50700F2CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700D9EE270409AC00491984 /* SwiftyXMLParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681ACD2701B50800F2CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681AD82701B50800F2CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7681AB12701B50700F2CFA3 = {
+			isa = PBXGroup;
+			children = (
+				C7681ABC2701B50700F2CFA3 /* ExcelToString */,
+				C7681AD32701B50800F2CFA3 /* ExcelToStringTests */,
+				C7681ADE2701B50800F2CFA3 /* ExcelToStringUITests */,
+				C7681ABB2701B50700F2CFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7681ABB2701B50700F2CFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7681ABA2701B50700F2CFA3 /* ExcelToString.app */,
+				C7681AD02701B50800F2CFA3 /* ExcelToStringTests.xctest */,
+				C7681ADB2701B50800F2CFA3 /* ExcelToStringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7681ABC2701B50700F2CFA3 /* ExcelToString */ = {
+			isa = PBXGroup;
+			children = (
+				C7681ABD2701B50700F2CFA3 /* AppDelegate.swift */,
+				C7681ABF2701B50700F2CFA3 /* SceneDelegate.swift */,
+				C7681AC12701B50700F2CFA3 /* ViewController.swift */,
+				C7681AEF2701B77800F2CFA3 /* EachLocale.swift */,
+				C7098032270452580091420C /* Config.swift */,
+				C700D9EF270430B700491984 /* Enums.swift */,
+				C7681AC32701B50700F2CFA3 /* Main.storyboard */,
+				C7681AC62701B50800F2CFA3 /* Assets.xcassets */,
+				C7681AC82701B50800F2CFA3 /* LaunchScreen.storyboard */,
+				C7681ACB2701B50800F2CFA3 /* Info.plist */,
+				C7681AED2701B59D00F2CFA3 /* sampleExcel.txt */,
+				C7681AF12701BE3200F2CFA3 /* sampleKoIOS.txt */,
+				C704699F270290BE00E9D224 /* sampleEnIOS.txt */,
+				C700D9E82704091A00491984 /* sample_en_and.xml */,
+				C700D9E92704091A00491984 /* sample_ko_and.xml */,
+			);
+			path = ExcelToString;
+			sourceTree = "<group>";
+		};
+		C7681AD32701B50800F2CFA3 /* ExcelToStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7681AD42701B50800F2CFA3 /* ExcelToStringTests.swift */,
+				C7681AD62701B50800F2CFA3 /* Info.plist */,
+			);
+			path = ExcelToStringTests;
+			sourceTree = "<group>";
+		};
+		C7681ADE2701B50800F2CFA3 /* ExcelToStringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7681ADF2701B50800F2CFA3 /* ExcelToStringUITests.swift */,
+				C7681AE12701B50800F2CFA3 /* Info.plist */,
+			);
+			path = ExcelToStringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7681AB92701B50700F2CFA3 /* ExcelToString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7681AE42701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToString" */;
+			buildPhases = (
+				C7681AB62701B50700F2CFA3 /* Sources */,
+				C7681AB72701B50700F2CFA3 /* Frameworks */,
+				C7681AB82701B50700F2CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelToString;
+			packageProductDependencies = (
+				C700D9ED270409AC00491984 /* SwiftyXMLParser */,
+			);
+			productName = ExcelToString;
+			productReference = C7681ABA2701B50700F2CFA3 /* ExcelToString.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7681ACF2701B50800F2CFA3 /* ExcelToStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7681AE72701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToStringTests" */;
+			buildPhases = (
+				C7681ACC2701B50800F2CFA3 /* Sources */,
+				C7681ACD2701B50800F2CFA3 /* Frameworks */,
+				C7681ACE2701B50800F2CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7681AD22701B50800F2CFA3 /* PBXTargetDependency */,
+			);
+			name = ExcelToStringTests;
+			productName = ExcelToStringTests;
+			productReference = C7681AD02701B50800F2CFA3 /* ExcelToStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7681ADA2701B50800F2CFA3 /* ExcelToStringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7681AEA2701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToStringUITests" */;
+			buildPhases = (
+				C7681AD72701B50800F2CFA3 /* Sources */,
+				C7681AD82701B50800F2CFA3 /* Frameworks */,
+				C7681AD92701B50800F2CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7681ADD2701B50800F2CFA3 /* PBXTargetDependency */,
+			);
+			name = ExcelToStringUITests;
+			productName = ExcelToStringUITests;
+			productReference = C7681ADB2701B50800F2CFA3 /* ExcelToStringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7681AB22701B50700F2CFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C7681AB92701B50700F2CFA3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C7681ACF2701B50800F2CFA3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7681AB92701B50700F2CFA3;
+					};
+					C7681ADA2701B50800F2CFA3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C7681AB92701B50700F2CFA3;
+					};
+				};
+			};
+			buildConfigurationList = C7681AB52701B50700F2CFA3 /* Build configuration list for PBXProject "ExcelToString" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7681AB12701B50700F2CFA3;
+			packageReferences = (
+				C700D9EC270409AC00491984 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */,
+			);
+			productRefGroup = C7681ABB2701B50700F2CFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7681AB92701B50700F2CFA3 /* ExcelToString */,
+				C7681ACF2701B50800F2CFA3 /* ExcelToStringTests */,
+				C7681ADA2701B50800F2CFA3 /* ExcelToStringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7681AB82701B50700F2CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7681AEE2701B59D00F2CFA3 /* sampleExcel.txt in Resources */,
+				C7681ACA2701B50800F2CFA3 /* LaunchScreen.storyboard in Resources */,
+				C7681AF22701BE3200F2CFA3 /* sampleKoIOS.txt in Resources */,
+				C70469A0270290BE00E9D224 /* sampleEnIOS.txt in Resources */,
+				C700D9EB2704091A00491984 /* sample_ko_and.xml in Resources */,
+				C7681AC72701B50800F2CFA3 /* Assets.xcassets in Resources */,
+				C700D9EA2704091A00491984 /* sample_en_and.xml in Resources */,
+				C7681AC52701B50700F2CFA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681ACE2701B50800F2CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681AD92701B50800F2CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7681AB62701B50700F2CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7681AF02701B77800F2CFA3 /* EachLocale.swift in Sources */,
+				C7681AC22701B50700F2CFA3 /* ViewController.swift in Sources */,
+				C700D9F0270430B700491984 /* Enums.swift in Sources */,
+				C7681ABE2701B50700F2CFA3 /* AppDelegate.swift in Sources */,
+				C7681AC02701B50700F2CFA3 /* SceneDelegate.swift in Sources */,
+				C7098033270452580091420C /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681ACC2701B50800F2CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7681AD52701B50800F2CFA3 /* ExcelToStringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7681AD72701B50800F2CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7681AE02701B50800F2CFA3 /* ExcelToStringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7681AD22701B50800F2CFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7681AB92701B50700F2CFA3 /* ExcelToString */;
+			targetProxy = C7681AD12701B50800F2CFA3 /* PBXContainerItemProxy */;
+		};
+		C7681ADD2701B50800F2CFA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7681AB92701B50700F2CFA3 /* ExcelToString */;
+			targetProxy = C7681ADC2701B50800F2CFA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7681AC32701B50700F2CFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7681AC42701B50700F2CFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7681AC82701B50800F2CFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7681AC92701B50800F2CFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7681AE22701B50800F2CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7681AE32701B50800F2CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7681AE52701B50800F2CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7681AE62701B50800F2CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToString/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToString;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7681AE82701B50800F2CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelToString.app/ExcelToString";
+			};
+			name = Debug;
+		};
+		C7681AE92701B50800F2CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToStringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelToString.app/ExcelToString";
+			};
+			name = Release;
+		};
+		C7681AEB2701B50800F2CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcelToString;
+			};
+			name = Debug;
+		};
+		C7681AEC2701B50800F2CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = ExcelToStringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.ExcelToStringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExcelToString;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7681AB52701B50700F2CFA3 /* Build configuration list for PBXProject "ExcelToString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7681AE22701B50800F2CFA3 /* Debug */,
+				C7681AE32701B50800F2CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7681AE42701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7681AE52701B50800F2CFA3 /* Debug */,
+				C7681AE62701B50800F2CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7681AE72701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7681AE82701B50800F2CFA3 /* Debug */,
+				C7681AE92701B50800F2CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7681AEA2701B50800F2CFA3 /* Build configuration list for PBXNativeTarget "ExcelToStringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7681AEB2701B50800F2CFA3 /* Debug */,
+				C7681AEC2701B50800F2CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C700D9EC270409AC00491984 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yahoojapan/SwiftyXMLParser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C700D9ED270409AC00491984 /* SwiftyXMLParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C700D9EC270409AC00491984 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */;
+			productName = SwiftyXMLParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C7681AB22701B50700F2CFA3 /* Project object */;
+}

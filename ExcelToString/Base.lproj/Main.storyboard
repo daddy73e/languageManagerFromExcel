@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExcelToString" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tob-sJ-iZP">
+                                <rect key="frame" x="0.0" y="782" width="414" height="80"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="GD0-27-Iuz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Translate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapBtnTranslate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BW5-YZ-BGC"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="c5c-C4-tLq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="526"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bL9-TE-PBA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VBW-fP-8KR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Auto IOS">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapAutoiOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GEF-ZZ-BlM"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFx-nL-8O3">
+                                        <rect key="frame" x="0.0" y="53" width="414" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trr-pQ-ZSn">
+                                                <rect key="frame" x="193.5" y="10" width="27" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="YNf-dF-QWH"/>
+                                            <constraint firstItem="Trr-pQ-ZSn" firstAttribute="centerX" secondItem="FFx-nL-8O3" secondAttribute="centerX" id="nDY-iG-lCw"/>
+                                            <constraint firstItem="Trr-pQ-ZSn" firstAttribute="centerY" secondItem="FFx-nL-8O3" secondAttribute="centerY" id="smi-cd-0Fm"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IQB-43-cVf">
+                                        <rect key="frame" x="0.0" y="96" width="414" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dtl-R9-EyB">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="100"/>
+                                                <state key="normal" title="적용소스 한글 비교"/>
+                                                <connections>
+                                                    <action selector="tapBtnOriginKoiOSCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaQ-ap-J3q"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jtM-Lc-rB6">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuP-If-8cx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Filter 합치기"/>
+                                                        <connections>
+                                                            <action selector="tapBtnMergeFilterIOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcK-nV-8ih"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgU-bj-tdA">
+                                                        <rect key="frame" x="0.0" y="50" width="138" height="50"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Filter 내보내기"/>
+                                                        <connections>
+                                                            <action selector="tapExportFilterIOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u13-wq-UbX"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ5-6A-oRd">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="100"/>
+                                                <state key="normal" title="적용소스 영문비교"/>
+                                                <connections>
+                                                    <action selector="tapBtnOriginEniOSCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUn-wC-ErB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="WY8-fW-O3E"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EIs-J6-a7w">
+                                        <rect key="frame" x="0.0" y="199" width="414" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNm-u8-Hrd">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                                                <state key="normal" title="Korean iOS Export"/>
+                                                <connections>
+                                                    <action selector="tapBtnExportKoiOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7nY-tO-8HT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xik-Dd-0nh">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="60"/>
+                                                <state key="normal" title="Eng iOS Export"/>
+                                                <connections>
+                                                    <action selector="tapBtnExportEngiOS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fEU-VU-zZh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="d8f-9H-nNS"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7V-mH-7m5" userLabel="space">
+                                        <rect key="frame" x="0.0" y="262" width="414" height="2"/>
+                                        <color key="backgroundColor" white="0.79000000000000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="Q5C-WB-09x"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dna-OL-oeH">
+                                        <rect key="frame" x="0.0" y="267" width="414" height="50"/>
+                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="tpp-Ys-Qhr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Auto Android">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapAutoAndroid:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQR-Lp-z71"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XYd-Ow-1pu">
+                                        <rect key="frame" x="0.0" y="320" width="414" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Android" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADd-48-8F1">
+                                                <rect key="frame" x="177" y="10" width="60" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ADd-48-8F1" firstAttribute="centerY" secondItem="XYd-Ow-1pu" secondAttribute="centerY" id="84v-bX-JX5"/>
+                                            <constraint firstItem="ADd-48-8F1" firstAttribute="centerX" secondItem="XYd-Ow-1pu" secondAttribute="centerX" id="GuE-JQ-UQ7"/>
+                                            <constraint firstAttribute="height" constant="40" id="Myc-cE-k3K"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LIR-rk-RY5">
+                                        <rect key="frame" x="0.0" y="363" width="414" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFw-Eg-ilm">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="100"/>
+                                                <state key="normal" title="적용소스 한글 비교"/>
+                                                <connections>
+                                                    <action selector="tapBtnOriginKoAndCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dYt-3A-tBE"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0yV-JU-6op">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uie-qV-cWr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Filter 합치기"/>
+                                                        <connections>
+                                                            <action selector="tapBtnMergeFilterAnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s5a-2v-P9e"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5GS-Yo-I7b">
+                                                        <rect key="frame" x="0.0" y="50" width="138" height="50"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Filter 내보내기"/>
+                                                        <connections>
+                                                            <action selector="tapExportFilterAndroid:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QUa-HY-wn0"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuR-Ia-K4Z">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="100"/>
+                                                <state key="normal" title="적용소스 영문비교"/>
+                                                <connections>
+                                                    <action selector="tapBtnOriginEnAndCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rne-Of-rTi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="NCX-HW-VLh"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VF5-bI-2bW">
+                                        <rect key="frame" x="0.0" y="466" width="414" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-6S-vLy">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="60"/>
+                                                <state key="normal" title="Korean Android Export"/>
+                                                <connections>
+                                                    <action selector="tapBtnExportKoAnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0b-yQ-mWW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hx-Mh-axh">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="60"/>
+                                                <state key="normal" title="Eng Android Export"/>
+                                                <connections>
+                                                    <action selector="tapBtnExportEngAnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xwp-dh-ms4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="r1v-go-QSP"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tob-sJ-iZP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3Kx-IS-cOX"/>
+                            <constraint firstItem="c5c-C4-tLq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7MZ-5a-Smw"/>
+                            <constraint firstItem="Tob-sJ-iZP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DA5-pF-nX2"/>
+                            <constraint firstItem="c5c-C4-tLq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lj5-re-gdv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c5c-C4-tLq" secondAttribute="trailing" id="foI-Ao-O3B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tob-sJ-iZP" secondAttribute="bottom" id="i01-Ya-ekh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnExportEngAnd" destination="0hx-Mh-axh" id="qIW-Oj-22a"/>
+                        <outlet property="btnExportEngiOS" destination="xik-Dd-0nh" id="2Mi-vy-t7R"/>
+                        <outlet property="btnExportKoAnd" destination="WU8-6S-vLy" id="s2W-YP-Vd2"/>
+                        <outlet property="btnExportKoiOS" destination="HNm-u8-Hrd" id="YQU-uU-RuM"/>
+                        <outlet property="btnFilterExportAnd" destination="5GS-Yo-I7b" id="jjm-BB-gQa"/>
+                        <outlet property="btnFilterExportIOS" destination="YgU-bj-tdA" id="csE-YJ-HTx"/>
+                        <outlet property="btnFilterMergeAnd" destination="Uie-qV-cWr" id="sWU-WX-PpQ"/>
+                        <outlet property="btnFilterMergeIOS" destination="uuP-If-8cx" id="vgJ-Qc-NvR"/>
+                        <outlet property="btnOriginEnCheckAnd" destination="MuR-Ia-K4Z" id="bBJ-RW-QJ2"/>
+                        <outlet property="btnOriginEnCheckiOS" destination="cZ5-6A-oRd" id="0eB-Ov-684"/>
+                        <outlet property="btnOriginKoCheckAnd" destination="aFw-Eg-ilm" id="IHB-dt-apb"/>
+                        <outlet property="btnOriginKoCheckiOS" destination="Dtl-R9-EyB" id="V3A-2s-7fv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-157" y="-52"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
