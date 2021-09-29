@@ -4,9 +4,13 @@
 
 ## How To Use
 
-1. "ExcelToString.xcodeproj" 열기
+1. "ExcelToString.xcodeproj" 열기.
 
-2. 사용하고자 하는 excel 의 데이터를 아래 스크린샷과 같이 복사한다
+2. 사용하고자 하는 excel 의 데이터를 아래 스크린샷과 같이 포맷 후 복사한다.
+
+![https://raw.githubusercontent.com/daddy73e/languageManagerFromExcel/main/screenshot_01.png](https://raw.githubusercontent.com/daddy73e/languageManagerFromExcel/main/screenshot_01.png)
+
+![https://github.com/daddy73e/languageManagerFromExcel/blob/main/screenshot_02.png?raw=true](https://github.com/daddy73e/languageManagerFromExcel/blob/main/screenshot_02.png?raw=true)
 
 3. "sampleExcel.txt" 파일에 붙여넣기한다
 
