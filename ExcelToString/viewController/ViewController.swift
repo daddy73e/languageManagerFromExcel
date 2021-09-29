@@ -535,7 +535,7 @@ class ViewController: UIViewController {
             print("ID : \(each.strId)\n한글 변역:\"\(each.kor)\"\n영문 번역:\"\(each.eng)\"")
             print("")
         }
-        print("******************************************")
+        print("******************* Count = \(arry.count) *******************")
         print("")
     }
     
