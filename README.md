@@ -17,9 +17,9 @@
 iOS일 경우 (각각 "sampleKoIOS.txt", "sampleEnIOS.txt" 에 복사한다. 갯수가 달라도 상관없음)
 
 ```json
-"ok" = "확인";
-"cancel" = "취소";
-"edit" = "편집";
+"ok"                                                 = "확인";
+"cancel"                                             = "취소";
+"edit"                                               = "편집";
 "search"                                             = "검색";
 "alert"                                              = "알림";
 "admin_user_join_type_01"                            = "일반";
