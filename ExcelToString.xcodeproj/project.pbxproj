@@ -13,6 +13,9 @@
 		C700D9F0270430B700491984 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C700D9EF270430B700491984 /* Enums.swift */; };
 		C70469A0270290BE00E9D224 /* sampleEnIOS.txt in Resources */ = {isa = PBXBuildFile; fileRef = C704699F270290BE00E9D224 /* sampleEnIOS.txt */; };
 		C7098033270452580091420C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7098032270452580091420C /* Config.swift */; };
+		C7531A3A2705336300B3560E /* TransModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7531A392705336300B3560E /* TransModel.swift */; };
+		C7531A3E2705354300B3560E /* AndTransModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7531A3D2705354300B3560E /* AndTransModel.swift */; };
+		C7531A402705355200B3560E /* iOSTransModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7531A3F2705355200B3560E /* iOSTransModel.swift */; };
 		C7681ABE2701B50700F2CFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681ABD2701B50700F2CFA3 /* AppDelegate.swift */; };
 		C7681AC02701B50700F2CFA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681ABF2701B50700F2CFA3 /* SceneDelegate.swift */; };
 		C7681AC22701B50700F2CFA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7681AC12701B50700F2CFA3 /* ViewController.swift */; };
@@ -49,6 +52,9 @@
 		C700D9EF270430B700491984 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		C704699F270290BE00E9D224 /* sampleEnIOS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleEnIOS.txt; sourceTree = "<group>"; };
 		C7098032270452580091420C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C7531A392705336300B3560E /* TransModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransModel.swift; sourceTree = "<group>"; };
+		C7531A3D2705354300B3560E /* AndTransModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndTransModel.swift; sourceTree = "<group>"; };
+		C7531A3F2705355200B3560E /* iOSTransModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTransModel.swift; sourceTree = "<group>"; };
 		C7681ABA2701B50700F2CFA3 /* ExcelToString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelToString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7681ABD2701B50700F2CFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7681ABF2701B50700F2CFA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				C7681AEF2701B77800F2CFA3 /* EachLocale.swift */,
+				C7531A392705336300B3560E /* TransModel.swift */,
+				C7531A3D2705354300B3560E /* AndTransModel.swift */,
+				C7531A3F2705355200B3560E /* iOSTransModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -312,8 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7681AF02701B77800F2CFA3 /* EachLocale.swift in Sources */,
+				C7531A3A2705336300B3560E /* TransModel.swift in Sources */,
+				C7531A3E2705354300B3560E /* AndTransModel.swift in Sources */,
 				C7681AC22701B50700F2CFA3 /* ViewController.swift in Sources */,
 				C700D9F0270430B700491984 /* Enums.swift in Sources */,
+				C7531A402705355200B3560E /* iOSTransModel.swift in Sources */,
 				C7681ABE2701B50700F2CFA3 /* AppDelegate.swift in Sources */,
 				C7681AC02701B50700F2CFA3 /* SceneDelegate.swift in Sources */,
 				C7098033270452580091420C /* Config.swift in Sources */,
